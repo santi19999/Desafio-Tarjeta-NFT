@@ -7,14 +7,19 @@
     --dark-blue-card:hsl(216,50%,16%);
     --dark-blue-line:hsl(215,32%,27%);
     --size-p:18px; 
+   
 }
 *{
     font-family: 'Outfit', sans-serif;
 }
 body{
     background-color: var(--dark-blue-main);
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 .card{
     background-color: var(--dark-blue-card);
     width: 385px;
@@ -23,18 +28,16 @@ body{
     border-radius: 15px;
 }
 
-
-
 .card-header{
-    width: 744px;
-    height: 990px;
+    width: 260px;
+    height: 260px;
     display: flex;
     margin: 0 auto;
 }
 
 .card-header img{
     width: 100%;
-    border-radius: 29px;
+    border-radius: 5px;
     margin-top: 20px;
     object-fit: cover;
 }
@@ -45,7 +48,6 @@ body{
 .card-body h3{
     color: white;
     margin-bottom: 10px;
-    font-size: 48px;
 }
 
 .body-text{
@@ -53,13 +55,11 @@ body{
     color: rgb(167, 167, 167);
     text-align:left;
     margin-bottom: 15px;
-    font-size: 40px;
 }
 .icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
 }
 .icons .equil{
     display: flex;
@@ -67,11 +67,9 @@ body{
 }
 .ciam{
     color: var(--cyan);
-    font-size: 30px;
 }
 .icons .equil img,.icons .clok img{
     margin-right: 7px;
-    width: 40px;
 }
 .icons .clok{
     display: flex;
@@ -79,42 +77,36 @@ body{
 }
 .icons .clok p{
     color:rgb(167, 167, 167);
-    font-size: 30px;
 }
 
 .footer{
     border-top: 0.3px solid var(--dark-blue-line);
 }
 .footer{
-    font-size: 25px;
-    color:rgb(189, 186, 186);
+    font-size: 13px;
+    color:rgb(189, 186, 186) ;
     display: flex;
     align-items: center;
+
 }
 .footer h6{
-    font-size: 25px;
+    font-size: 13px;
     font-weight: 300;
 }
 .footer .content-img{
-    width: 66px;
-    height: 66px;
+    width: 30px;
+    height: 30px;
     border:1px solid white;
     border-radius: 100%;
-    margin-right: 25px;
+    margin-right: 10px;
+
 }
 .content-img img{
     width: 100%;
 }
 .destacado{
     color: white;
-    margin-left: 12px;
-}
-
-@media (min-width: 1250px){
-    .card{
-        box-shadow: 10px 10px 15px 10px #09111d;
-    }
-    
+    margin-left: 4px;
 }
 @media (max-width:380px){
     .card{
