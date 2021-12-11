@@ -15,15 +15,15 @@ body{
     background-color: var(--dark-blue-main);
     
 }
-
-
 .card{
     background-color: var(--dark-blue-card);
-    width: 848px;
-    height: 1508px;
+    width: 385px;
+    height: 600px;
     margin:0 auto;
     border-radius: 15px;
 }
+
+
 
 .card-header{
     width: 744px;
@@ -116,10 +116,13 @@ body{
     }
     
 }
-@media (max-width:320px){
-    /*.card{
-        width: 80%;
-        height: auto;
-    }*/
+@media (max-width:380px){
+    .card{
+    background-color: var(--dark-blue-card);
+    width: 848px;
+    height: 1508px;
+    margin:0 auto;
+    border-radius: 15px;
+}
     
 }
