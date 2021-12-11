@@ -7,31 +7,36 @@
     --dark-blue-card:hsl(216,50%,16%);
     --dark-blue-line:hsl(215,32%,27%);
     --size-p:18px; 
-   
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 *{
     font-family: 'Outfit', sans-serif;
 }
 body{
     background-color: var(--dark-blue-main);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
-
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 .card{
     background-color: var(--dark-blue-card);
-    width: 385px;
-    height: 600px;
+    width: 325px;
     margin:0 auto;
     border-radius: 15px;
+    box-shadow: 10px 10px 15px 10px #09111d;
+    overflow: hidden;
 }
-
 .card-header{
-    width: 260px;
-    height: 260px;
-    display: flex;
+    width: 90%;
+    display: block;
     margin: 0 auto;
 }
 
@@ -39,19 +44,21 @@ body{
     width: 100%;
     border-radius: 5px;
     margin-top: 20px;
-    object-fit: cover;
+    object-fit:contain;
 }
+
 .card-body{
-    padding: 20px;
+    margin: 0 16.250px;
 }
 
 .card-body h3{
     color: white;
     margin-bottom: 10px;
+    font-size: 1.8rem;
 }
 
 .body-text{
-    font-size: 15px;
+    font-size: 1.8rem;
     color: rgb(167, 167, 167);
     text-align:left;
     margin-bottom: 15px;
@@ -83,14 +90,14 @@ body{
     border-top: 0.3px solid var(--dark-blue-line);
 }
 .footer{
-    font-size: 13px;
+    font-size: 1.3rem;
     color:rgb(189, 186, 186) ;
     display: flex;
     align-items: center;
 
 }
 .footer h6{
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 .footer .content-img{
@@ -108,13 +115,7 @@ body{
     color: white;
     margin-left: 4px;
 }
-@media (max-width:380px){
-    .card{
-    background-color: var(--dark-blue-card);
-    width: 848px;
-    height: 1508px;
-    margin:0 auto;
-    border-radius: 15px;
-}
-    
+
+.destacado:hover, .destacar:hover{
+    color: var(--cyan);
 }
