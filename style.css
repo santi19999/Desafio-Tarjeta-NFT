@@ -1,0 +1,134 @@
+/*  Colores Primarios */
+
+:root{
+    --soft_blue:hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%,50%);
+    --dark-blue-main:#0d192b;
+    --dark-blue-card:hsl(216,50%,16%);
+    --dark-blue-line:hsl(215,32%,27%);
+    --size-p:18px; 
+}
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: var(--dark-blue-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    height: 640px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    align-self: center;
+    background-color: var(--dark-blue-card);
+    width: 45vh;
+    height: 530px;
+    margin:auto;
+    border-radius: 15px;
+}
+.card-header{
+    width: 260px;
+    height: 260px;
+    display: flex;
+    margin: 0 auto;
+}
+.card-header img{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.card-header img:hover{
+    rotate: 45dag;
+}
+.card-body{
+    padding: 20px;
+}
+
+.card-body h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.body-text{
+    font-size: 15px;
+    color: rgb(167, 167, 167);
+    text-align:left;
+    margin-bottom: 15px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons .equil{
+    display: flex;
+    align-items: center;    
+}
+.ciam{
+    color: var(--cyan);
+}
+.icons .equil img,.icons .clok img{
+    margin-right: 7px;
+}
+.icons .clok{
+    display: flex;
+    align-items: center;    
+}
+.icons .clok p{
+    color:rgb(167, 167, 167);
+}
+
+.footer{
+    border-top: 0.3px solid var(--dark-blue-line);
+}
+.footer{
+    font-size: 13px;
+    color:rgb(189, 186, 186) ;
+    display: flex;
+    align-items: center;
+
+}
+.footer h6{
+    font-size: 13px;
+    font-weight: 300;
+}
+.footer .content-img{
+    width: 30px;
+    height: 30px;
+    border:1px solid white;
+    border-radius: 100%;
+    margin-right: 10px;
+
+}
+.content-img img{
+    width: 100%;
+}
+.destacado{
+    color: white;
+    margin-left: 4px;
+}
+
+@media (min-width: 1250px){
+    .card{
+        box-shadow: 10px 10px 15px 10px #09111d;
+    }
+    
+}
+@media (max-width:320px){
+    .container{
+        height: 600px;
+    }
+    .card{
+        width: 290px;
+      
+        overflow: hidden;
+
+    }
+}
