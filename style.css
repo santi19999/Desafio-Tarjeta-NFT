@@ -111,19 +111,22 @@ body{
     margin-left: 4px;
 }
 
-@media (min-width: 1250px){
+@media (min-width:370px){
     .card{
-        box-shadow: 10px 10px 15px 10px #09111d;
+        width: 350px;
     }
-    
 }
-@media (max-width:380px){
+@media (max-width:768px){
     .card{
-    background-color: var(--dark-blue-card);
-    width: 848px;
-    height: 1508px;
-    margin:0 auto;
-    border-radius: 15px;
-}
-    
+        width: 600px;
+    }
+    p,h5{
+        font-size: 20px;
+    }
+    .card-body>.equil,.card-body>.clok{
+        width: 25px;
+    }
+    h3{
+        font-size: 20px ;
+    }
 }
