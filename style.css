@@ -27,6 +27,8 @@ body{
     height: 600px;
     margin:0 auto;
     border-radius: 15px;
+    overflow-x:scroll;
+    overflow-y:hidden;
 }
 
 .card-header{
