@@ -2,11 +2,12 @@
 
 :root{
     --soft_blue:hsl(215, 51%, 70%);
-    --cyan: hsl(178, 100%,50%);
+    --cyan: #00fff7;
     --dark-blue-main:#0d192b;
     --dark-blue-card:hsl(216,50%,16%);
     --dark-blue-line:hsl(215,32%,27%);
     --size-p:18px; 
+   
 }
 *{
     font-family: 'Outfit', sans-serif;
@@ -18,34 +19,27 @@ body{
     justify-content: center;
 }
 
-.container{
-    display: flex;
-    height: 640px;
-    align-items: center;
-    justify-content: center;
-}
+
 .card{
-    align-self: center;
     background-color: var(--dark-blue-card);
-    width: 45vh;
-    height: 530px;
-    margin:auto;
+    width: 385px;
+    height: 600px;
+    margin:0 auto;
     border-radius: 15px;
 }
+
 .card-header{
     width: 260px;
     height: 260px;
     display: flex;
     margin: 0 auto;
 }
+
 .card-header img{
     width: 100%;
     border-radius: 5px;
     margin-top: 20px;
     object-fit: cover;
-}
-.card-header img:hover{
-    rotate: 45dag;
 }
 .card-body{
     padding: 20px;
@@ -120,15 +114,4 @@ body{
         box-shadow: 10px 10px 15px 10px #09111d;
     }
     
-}
-@media (max-width:320px){
-    .container{
-        height: 600px;
-    }
-    .card{
-        width: 290px;
-      
-        overflow: hidden;
-
-    }
 }
