@@ -43,7 +43,7 @@ body{
 }
 .card-header::before{
     content: url(./image/icon-view.svg);
-    background-color: hsla(178, 100%, 50%, 0.501);
+    background-color: hsla(178, 100%, 50%, 0.501);;
     position: absolute;
     inset: 0;
     display: flex;
@@ -69,7 +69,7 @@ body{
     margin: 0 16.250px;
 }
 
-.card-body h3{
+.card-body h1{
     color: white;
     margin-bottom: 10px;
     font-size: 1.8rem;
@@ -114,7 +114,7 @@ body{
     align-items: center;
 
 }
-.footer h6{
+.footer h3{
     font-size: 1.3rem;
     font-weight: 300;
 }
