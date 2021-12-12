@@ -129,7 +129,7 @@ body{
 .content-img img{
     width: 100%;
 }
-.destacado{
+.destacado,.destacar{
     color: white;
     margin-left: 4px;
 }
