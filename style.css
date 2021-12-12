@@ -43,7 +43,7 @@ body{
 }
 .card-header::before{
     content: url(./image/icon-view.svg);
-    background-color: hsla(178, 100%, 50%, 0.501);;
+    background-color: hsla(178, 100%, 50%, 0.501);
     position: absolute;
     inset: 0;
     display: flex;
