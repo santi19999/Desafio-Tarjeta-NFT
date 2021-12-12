@@ -92,6 +92,7 @@ body{
 }
 .ciam{
     color: var(--cyan);
+    font-size: 1.3rem;
 }
 .icons .equil img,.icons .clok img{
     margin-right: 7px;
@@ -102,6 +103,7 @@ body{
 }
 .icons .clok p{
     color:rgb(167, 167, 167);
+    font-size: 1.4rem;
 }
 
 .footer{
@@ -112,10 +114,11 @@ body{
     color:rgb(189, 186, 186) ;
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
 
 }
 .footer h3{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 .footer .content-img{
@@ -129,7 +132,7 @@ body{
 .content-img img{
     width: 100%;
 }
-.destacado,.destacar{
+.destacado{
     color: white;
     margin-left: 4px;
 }
