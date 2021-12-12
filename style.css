@@ -115,7 +115,7 @@ body{
 
 }
 .footer h3{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 .footer .content-img{
@@ -129,7 +129,7 @@ body{
 .content-img img{
     width: 100%;
 }
-.destacado{
+.destacado,.destacar{
     color: white;
     margin-left: 4px;
 }
