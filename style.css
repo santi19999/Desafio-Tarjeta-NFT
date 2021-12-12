@@ -33,19 +33,37 @@ body{
     border-radius: 15px;
     box-shadow: 10px 10px 15px 10px #09111d;
     overflow: hidden;
+    padding-top: 20px;
 }
 .card-header{
     width: 90%;
     display: block;
     margin: 0 auto;
+    position: relative;
 }
-
+.card-header::before{
+    content: url(./image/icon-view.svg);
+    background-color: hsla(178, 100%, 50%, 0.501);;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.25s ease;
+    
+}
+.card-header:hover::before{
+    opacity: 1;
+    
+}
 .card-header img{
     width: 100%;
     border-radius: 5px;
-    margin-top: 20px;
-    object-fit:contain;
+    object-fit:cover;
+    
 }
+
 
 .card-body{
     margin: 0 16.250px;
