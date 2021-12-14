@@ -25,9 +25,9 @@ Los usuarios deberían poder:
 - *Todo el contenido centrado en la página.
 
 ### Screenshot
-![Mobile](./screenshot/Screenshot_20211214-001553_Chrome.jpg)
-![Mobile-Active](./svreenshot/Screenshot_20211214-001605_Chrome.jpg)
-![Desktop](./screenshot/screenshot-desktop.PNG)
+![](./screenshot/Screenshot_20211214-001553_Chrome.jpg)
+![](./screenshot/Screenshot_20211214-001605_Chrome.jpg)
+![](./screenshot/screenshot-desktop.PNG)
 
 ### Enlaces
 - Solución URL: [GitHub](https://github.com/santi19999/Desafio-Tarjeta-NFT.git)
